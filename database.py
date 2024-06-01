@@ -2,7 +2,7 @@ import oracledb
 import json
 
 def conectar():
-    return oracledb.connect("rm5u52863/050305@oracle.fiap.com.br:1521/orcl")
+    return oracledb.connect("rm552863/050305@oracle.fiap.com.br:1521/orcl")
 
 def cadastrar_usuario(nome_empresa, email, senha):
     conn = conectar()
