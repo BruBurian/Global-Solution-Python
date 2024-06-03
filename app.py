@@ -8,7 +8,7 @@ def conexao():
     data = pd.read.csv('arquivo.csv')
 
 with open('secret.txt') as file:
-    secret = json.load(file)a
+    secret = json.load(file)
 
 usuario = secret['user']
 senha = secret['password']
